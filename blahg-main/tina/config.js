@@ -85,8 +85,8 @@ export default defineConfig({
                 label: "Unity",
               },
               {
-                value: "events",
-                label: "Events",
+                value: "glsl",
+                label: "GLSL",
               },
               {
                 value: "learning",
