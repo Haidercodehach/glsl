@@ -81,8 +81,8 @@ export default defineConfig({
                 label: "Technical",
               },
               {
-                value: "advice",
-                label: "Advice",
+                value: "unity",
+                label: "Unity",
               },
               {
                 value: "events",
