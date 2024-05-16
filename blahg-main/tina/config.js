@@ -93,12 +93,12 @@ export default defineConfig({
                 label: "Learning",
               },
               {
-                value: "meta",
-                label: "Meta",
+                value: "gamedev",
+                label: "GameDev",
               },
               {
-                value: "work",
-                label: "Work",
+                value: "pixalart",
+                label: "PixelArt",
               },
               {
                 value: "personal",
