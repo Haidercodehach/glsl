@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogPost.astro
 title: Master the Art of Pixels A Comprehensive Guide to Pixel Shader Programming in Unity -GLSL
-slug: "2"
+slug: "pixel-shader-programming-in-unity"
 description: >-
   Unleash the graphical power of Unity with this comprehensive guide to pixel shader programming! Craft stunning visuals, manipulate textures, and breathe life into your game objects – all within the intuitive Unity framework.
 tags:

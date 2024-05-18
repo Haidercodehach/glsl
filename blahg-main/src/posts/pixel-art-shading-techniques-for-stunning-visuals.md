@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogPost.astro
-title: Pixel Art Shading  Techniques for Stunning Visuals -GLSL
-slug: "5"
+title: Pixel Art Shading Techniques for Stunning Visuals -GLSL
+slug: "pixel-art-shading-techniques-for-stunning-visuals"
 description: >-
   Understanding shader fundamentals (vertex, fragment, etc.)
   Discovering popular shader effects (lighting, textures, particles)

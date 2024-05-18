@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogPost.astro
 title: Elevating Game Graphics Exploring Shaders for Immersive Experiences
-slug: "4"
+slug: "elevating-game-graphics-exploring-shaders-for-immersive-experiences"
 description: >-
   Understanding shader fundamentals (vertex, fragment, etc.)
   Discovering popular shader effects (lighting, textures, particles)

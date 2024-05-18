@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogPost.astro
 title: Understanding Vertex Shaders Unveiling the Magic Behind 3D Graphics -GLSL
-slug: "3"
+slug: "understanding-vertex-shaders-unveiling-the-magic-behind-3d-graphics"
 description: >-
   A comprehensive guide to vertex shaders, a fundamental part of 3D graphics rendering. It starts with the basics, explaining what vertex shaders are and their role in the graphics pipeline. It then dives into the details of vertex shader input and output, including vertex attributes and common data types like position, color, and texture coordinates. The guide also covers geometric transformations, calculations performed by vertex shaders, and how they leverage parallel processing on GPUs for efficiency
 tags:

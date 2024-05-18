@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/BlogPost.astro
 title: How to Learn Shader Programming A Step-by-Step Guide -GLSL
-slug: "1"
+slug: "how-to-learn-shader-programming"
 description: >-
   Want to create stunning visuals, realistic lighting effects, and mind-blowing special effects in your games or applications? Look no further than shader programming This comprehensive guide breaks down shader programming for beginners, taking you from the fundamentals of 3D graphics to writing your own shaders. Unleash the true potential of your graphics and transform your projects with the power of shaders.
 tags:
