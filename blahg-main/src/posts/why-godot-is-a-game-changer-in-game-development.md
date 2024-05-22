@@ -3,10 +3,7 @@ layout: ../layouts/BlogPost.astro
 title: Why Godot is a Game Changer in Game Development
 slug: "why-godot-is-a-game-changer-in-game-development"
 description: >-
-  Understanding shader fundamentals (vertex, fragment, etc.)
-  Discovering popular shader effects (lighting, textures, particles)
-  Exploring shader development tools and resources
-  Learning from real-world case studies in game development
+  Discover why Godot is revolutionizing game development in this in-depth article. Learn about its open-source power, lightweight efficiency, versatile GDScript language, innovative node-based architecture, and cross-platform capabilities. Explore how Godot empowers indie developers, benefits from a vibrant community, and continuously innovates to stay at the forefront of technology. Whether you're a beginner or a seasoned developer, find out why Godot is the game engine of the future and how it can elevate your projects to new heights. Dive into the transformative potential of Godot and start creating without limits.
 tags:
   - godot
   - gamedev
