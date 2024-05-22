@@ -89,8 +89,8 @@ export default defineConfig({
                 label: "GLSL",
               },
               {
-                value: "learning",
-                label: "Learning",
+                value: "godot",
+                label: "Godot",
               },
               {
                 value: "gamedev",
