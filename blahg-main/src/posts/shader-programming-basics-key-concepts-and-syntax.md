@@ -3,7 +3,7 @@ layout: ../layouts/BlogPost.astro
 title: Shader Programming Basics Key Concepts and Syntax
 slug: "shader-programming-basics-key-concepts-and-syntax"
 description: >-
-  While popular resources like Stack Overflow and GitHub are invaluable, there are several lesser-known gems that can significantly boost your development skills. Here are nine essential, but less commonly mentioned, websites that can help you become a 10x developer.
+  Shader programming is an essential skill for anyone interested in computer graphics, game development, or visual effects. Shaders are small programs that run on the GPU (Graphics Processing Unit) and are used to control the rendering of graphics. This guide will introduce you to the basic concepts and syntax of shader programming, giving you a foundation to start creating your own visual effects.
 tags:
   - shader
 added: "May 24 2024"
