@@ -3,7 +3,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://glsl.site/",
+  site: "https://glsl.site",
   base: "/",
   integrations: [sitemap()],
   markdown: {
