@@ -32,7 +32,7 @@ Post-processing effects are typically implemented using fragment shaders. The re
 
 The bloom effect makes bright areas of the scene appear to glow. This is achieved by blurring bright areas and then adding them back to the original image.
 
-```
+```c
 // Bloom Fragment Shader
 uniform sampler2D scene;
 uniform float threshold;
@@ -69,7 +69,7 @@ void main() {
 
 Motion blur simulates the blurring of moving objects. This effect requires velocity information for each pixel, which can be precomputed and passed to the shader.
 
-```
+```c
 // Motion Blur Fragment Shader
 uniform sampler2D scene;
 uniform sampler2D velocity;
@@ -97,7 +97,7 @@ void main() {
 
 Depth of field simulates the blurring of objects based on their distance from the camera, focusing on a specific depth range.
 
-```
+```c
 // Depth of Field Fragment Shader
 uniform sampler2D scene;
 uniform sampler2D depth;
