@@ -180,8 +180,6 @@ Physics-based shading provides a powerful framework for creating realistic light
   vec3 lambertian(vec3 albedo, vec3 lightColor, float NdotL) {
   return albedo _ lightColor _ NdotL / PI;
   }
-
-```
+  ```
 - Why is Physics-Based Shading important?
-    - PBS is important because it ensures that materials and lighting behave realistically under various conditions, leading to more immersive and believable visuals. This consistency is crucial for applications in games, films, virtual reality, and any other medium that requires high levels of visual fidelity.
-```
+  - PBS is important because it ensures that materials and lighting behave realistically under various conditions, leading to more immersive and believable visuals. This consistency is crucial for applications in games, films, virtual reality, and any other medium that requires high levels of visual fidelity.
