@@ -10,8 +10,7 @@ let posts = allPosts
 		(a, b) =>
 			new Date(b.frontmatter.updated || b.frontmatter.added).valueOf() -
 			new Date(a.frontmatter.updated || a.frontmatter.added).valueOf()
-	)
-	.slice(0, 5);
+	);
 ---
 
 <content>
