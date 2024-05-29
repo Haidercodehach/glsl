@@ -9,7 +9,7 @@ tags:
 added: "May 22 2024"
 ---
 
-While popular resources like Stack Overflow and GitHub are invaluable, there are several lesser-known gems that can significantly boost your development skills. Here are nine essential, but less commonly mentioned, websites that can help you become a 10x developer.
+While popular resources like Stack Overflow and GitHub are invaluable, there are several lesser-known gems that can significantly boost your [development skills](/post/unveiling-the-enigma-delving-deep-into-shader-artistry-and-self-reflection/). Here are nine essential, but less commonly mentioned, websites that can help you become a 10x developer.
 
 ## 1. Exercism
 
