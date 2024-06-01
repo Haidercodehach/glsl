@@ -41,7 +41,7 @@ Shaders are small programs that determine how graphics are rendered on the scree
 
 Types of Shaders
 
-- Vertex Shaders: Process each vertex's attributes.
+- [Vertex Shaders](/post/understanding-vertex-shaders-unveiling-the-magic-behind-3d-graphics/): Process each vertex's attributes.
 - Fragment Shaders: Determine the color and other attributes of each pixel.
 - Compute Shaders: Handle general-purpose computing tasks on the GPU, useful for complex particle simulations.
 - Role of Shaders in Particle Systems
@@ -51,8 +51,8 @@ Types of Shaders
 
 Tools and Software Requirements
 
-- Game Engines: Unity, Unreal Engine
-- Shader Languages: GLSL, HLSL, ShaderLab
+- Game Engines: [Unity](/tag/unity/), Unreal Engine
+- Shader Languages: [GLSL](glsl.site), HLSL, ShaderLab
 - Development Environments: Visual Studio, Rider
   **Basic Particle System Creation**
   Step-by-step guide to creating a basic particle system, including setting up an emitter and defining particle properties.
