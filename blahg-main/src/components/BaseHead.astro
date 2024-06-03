@@ -4,7 +4,7 @@ import "../style/global.css";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
-const { title, description, image = "/home-blog-card.png" } = Astro.props;
+const { title, description, heroImage } = Astro.props;
 ---
 
 <head>
@@ -26,7 +26,7 @@ const { title, description, image = "/home-blog-card.png" } = Astro.props;
 	<meta property="og:url" content={Astro.url} />
 	<meta property="og:title" content={title} />
 	<meta property="og:description" content={description} />
-	<meta property="og:image" content={new URL(image, Astro.url)} />
+	<meta property="og:image" content={new URL(heroImage, Astro.url)} />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
@@ -34,7 +34,7 @@ const { title, description, image = "/home-blog-card.png" } = Astro.props;
 	<meta property="twitter:title" content={title} />
 	<meta property="twitter:description" content={description} />
 	<meta name="twitter:creator" content="@cassidoo" />
-	<meta name="twitter:image" content={new URL(image, Astro.url)} />
+	<meta name="twitter:image" content={new URL(heroImage, Astro.url)} />
 
 	<!-- RSS Link -->
 	<link
