@@ -8,7 +8,7 @@ tags:
   - technical
   - gamedev
 added: "Jun 3 2024"
-heroImage: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k5zk31o8hzo7vs3mmcx2.png"
+heroImage: "/home-blog-card.png"
 ---
 
 Game development is a complex and multifaceted process that involves creativity, technical skills, and strategic planning. Whether you're an indie developer or part of a larger team, here are 13 essential tips to help you navigate the journey of creating a successful game.
