@@ -9,7 +9,7 @@ tags:
   - gamedev
   - shader
 added: "Jun 4 2024"
-heroImage: "/10-tips-for-shader.png"
+heroImage: "/13-tips-for-shader.png"
 ---
 
 Shaders are integral to modern computer graphics, enabling real-time rendering of complex scenes and effects. Writing efficient shaders can significantly impact the performance and visual quality of your graphics applications. Here are ten essential tips to help you write efficient and effective shaders.
