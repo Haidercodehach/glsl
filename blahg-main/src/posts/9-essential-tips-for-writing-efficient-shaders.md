@@ -80,69 +80,6 @@ uniform mat4 precomputedMatrix;
 vec4 transformedPosition = precomputedMatrix * position;
 ```
 
-10 Essential Tips for Writing Efficient Shaders
-Shaders are integral to modern computer graphics, enabling real-time rendering of complex scenes and effects. Writing efficient shaders can significantly impact the performance and visual quality of your graphics applications. Here are ten essential tips to help you write efficient and effective shaders.
-
-1. Minimize Texture Lookups
-   Tip: Reduce the number of texture fetches to improve performance.
-
-Texture lookups can be expensive in terms of performance. Minimize the number of texture fetches by combining data into fewer textures or using smaller texture maps where possible. Utilize techniques like texture atlases to group multiple textures into a single large texture.
-
-2. Use Appropriate Precision
-   Tip: Choose the appropriate precision for your calculations.
-
-Shaders support different precision qualifiers like highp, mediump, and lowp. Use mediump or lowp for variables that don't require high precision. This can reduce computational overhead and improve performance, especially on mobile devices.
-
-```c
-// Example: Using mediump precision for color calculations
-mediump vec3 color = texture2D(myTexture, uv).rgb;
-```
-
-3. Optimize Branching
-   Tip: Minimize the use of conditional statements.
-
-Branching (if-else statements) can cause performance issues on GPUs due to their parallel nature. Where possible, use arithmetic operations or mix functions to replace branching.
-
-```c
-// Instead of this:
-if (condition) {
-    result = value1;
-} else {
-    result = value2;
-}
-
-// Use this:
-result = mix(value1, value2, float(condition));
-```
-
-4. Use Built-In Functions
-   Tip: Leverage built-in GLSL functions for common operations.
-
-GLSL provides a range of built-in functions optimized for performance. Use these functions instead of writing your own implementations for common tasks like vector normalization, dot products, and mathematical operations.
-
-```c
-// Example: Using built-in function for dot product
-float dotProduct = dot(vec1, vec2);
-```
-
-5. Reduce Overdraw
-   Tip: Minimize the number of pixels shaded multiple times.
-
-Overdraw occurs when multiple fragments are drawn on the same pixel. Use techniques like depth culling, early-z testing, and avoiding unnecessary transparent objects to reduce overdraw.
-
-6. Precompute Values
-   Tip: Precompute values outside the shader where possible.
-
-If certain values remain constant throughout a frame, compute them once on the CPU and pass them as uniforms to the shader. This reduces redundant calculations within the shader.
-
-```c
-// Precompute matrix transformations on the CPU
-uniform mat4 precomputedMatrix;
-
-// Use precomputed matrix in the shader
-vec4 transformedPosition = precomputedMatrix * position;
-```
-
 ## 7. Batch Draw Calls
 
 Tip: Reduce the number of draw calls by batching objects.
