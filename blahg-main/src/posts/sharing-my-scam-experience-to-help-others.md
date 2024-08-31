@@ -7,7 +7,7 @@ description: >-
 tags:
   - technical
   - gamedev
-  - shader
+  - webdev
 added: "August 4 2024"
 heroImage: "/Scam.png"
 ---
@@ -49,7 +49,7 @@ My encounter with Gumroad serves as a cautionary tale for other indie developers
 - Prioritize User Experience: A great product is essential for success. Focus on creating a positive user experience that keeps people coming back.
 - Stay Updated on Industry Trends: Keep up-to-date with the latest trends and technologies in your field. This will help you stay competitive and adapt to changes.
 By following these tips and learning from the experiences of others, indie developers can increase their chances of success and build a thriving career.
-
+> Tweeter (X) [@HaiderAftab007](https://x.com/HaiderAftab007)
 
 
 

@@ -77,6 +77,10 @@ export default defineConfig({
                 label: "Shader",
               },
               {
+                value: "Webdev",
+                label: "Web development",
+              },
+              {
                 value: "technical",
                 label: "Technical",
               },
